@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    background-color: #ffffffab;
+    text-align: center;
+    padding: 4px;
+    font-size: 16px;
+    z-index: 100;
+}
+
+button {
+    display: block;
+    z-index: 100;
+    border-radius: 12px;
+    padding: 6px 10px;
+    margin: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    background-color: #029b9b61;
+}
+
+ul {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 400px;
+    height: 80vh;
+    border-radius: 20px;
+    background-color: #ffffffb0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+
+}
+
+ul>li.head {
+    list-style: none;
+    font-size: 25px;
+    border-radius: 4px;
+    padding: 4px;
+    font-weight: 600;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+ul>li.task {
+    list-style: none;
+    font-size: 19px;
+    border-radius: 4px;
+    padding: 4px;
+    font-weight: 100;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ul>li.task span:hover{
+    cursor: pointer;
+}
